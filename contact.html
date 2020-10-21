@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat</title>
+    <style>
+        body {
+            background-color: rgb(188, 228, 188);
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid rgb(40, 87, 54);
+
+        }
+
+        h1 {
+            color: rgb(40, 87, 54);
+            font-family: verdana;
+            font-size: 150%;
+            text-align: center;
+
+        }
+
+        p {
+            color: rgb(7, 7, 7);
+            font-family: courier;
+            font-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kapcsolatfelvétel</h1>
+    <p>Ha szeretnél kapcsolatba lépni velünk, az alábbi űrlap kitöltésével megteheted, vagy írhatsz e-mailt is.</p>
+<form>
+    <label for="lname">Vezetéknév:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="fname">Keresztnév:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="email">Add meg az email címedet:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="message">Üzenet:</label><br>
+    <textarea name="message" rows="10" cols="30"></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
